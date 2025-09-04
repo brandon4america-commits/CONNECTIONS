@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO: Title tag is crucial for search engines and browser tabs -->
+    <title>Civic Testimony & Reporting | Your Voice for Accountability</title>
+
+    <!-- SEO: Meta description provides a brief summary for search results -->
+    <meta name="description" content="Submit a confidential report or provide witness testimony to ensure community and institutional accountability. Your voice is a pillar of democracy.">
+
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Custom styles to define a design system and ensure consistency */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #09090B; /* Zinc 950 */
+            color: #FAFAFA; /* Zinc 50 */
+        }
+        .dark .bg-card { background-color: #18181B; } /* Zinc 900 */
+        .dark .border-border { border-color: #27272A; } /* Zinc 800 */
+        .dark .text-muted-foreground { color: #A1A1AA; } /* Zinc 400 */
+        .dark .text-foreground { color: #FAFAFA; } /* Zinc 50 */
+        .dark .bg-primary { background-color: #FAFAFA; } /* Zinc 50 */
+        .dark .text-primary-foreground { color: #09090B; } /* Zinc 950 */
+        .dark .hover\:border-primary:hover { border-color: #FAFAFA; } /* Zinc 50 */
+        .dark .hover\:bg-primary\/90:hover { background-color: rgba(250, 250, 250, 0.9); }
+        .dark .ring-primary { ring-color: #FAFAFA; } /* Zinc 50 */
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="min-h-screen flex flex-col items-center justify-center p-4">
+        
+        <!-- Header Section -->
+        <header class="p-4 text-center w-full max-w-4xl">
+            <h1 class="text-3xl md:text-4xl font-bold text-foreground">Your Testimony is a Pillar of Democracy.</h1>
+            <p class="text-md text-muted-foreground mt-3 max-w-2xl mx-auto">
+                Accountability is not a spectator sport. It requires the courage of individuals to speak up. Your firsthand account is a vital contribution to maintaining the integrity of our community and its institutions.
+            </p>
+        </header>
+
+        <!-- Main Action Section -->
+        <main class="text-center mt-10 w-full">
+            <h2 class="text-2xl font-bold mb-6 text-foreground">Fulfill Your Duty</h2>
+            
+            <!-- Grid for CTAs -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-xl mx-auto">
+                
+                <!-- SUGGESTION IMPLEMENTED: Primary CTA with distinct styling -->
+                <!-- SUGGESTION IMPLEMENTED: Added focus-visible for keyboard accessibility -->
+                <button class="group p-6 bg-primary text-primary-foreground rounded-lg border border-transparent shadow-lg transition-transform transform hover:-translate-y-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950 focus-visible:ring-primary">
+                    <h3 class="font-semibold text-lg">Submit a Report</h3>
+                    <!-- SUGGESTION IMPLEMENTED: Improved color contrast for accessibility -->
+                    <p class="text-sm text-primary-foreground/80 mt-1">Provide a new, firsthand account of an incident.</p>
+                </button>
+                
+                <!-- SUGGESTION IMPLEMENTED: Secondary CTA with "ghost button" style -->
+                <!-- SUGGESTION IMPLEMENTED: Added focus-visible for keyboard accessibility -->
+                <button class="group p-6 bg-card rounded-lg border border-border transition-all hover:border-primary hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950 focus-visible:ring-primary">
+                    <h3 class="font-semibold text-lg text-foreground">Provide Testimony</h3>
+                    <!-- SUGGESTION IMPLEMENTED: Improved color contrast for accessibility -->
+                    <p class="text-sm text-muted-foreground mt-1">Add your voice to an existing report as a witness.</p>
+                </button>
+            </div>
+
+            <!-- SUGGESTION IMPLEMENTED: Trust-building links -->
+            <div class="mt-12 text-center">
+                <p class="text-sm text-muted-foreground">
+                    Your privacy and security are our top priority.
+                    <a href="#how-it-works" class="underline hover:text-foreground transition-colors">Learn how it works</a>.
+                </p>
+            </div>
+        </main>
+        
+        <!-- Footer for additional links -->
+        <footer class="w-full max-w-4xl mx-auto text-center p-4 mt-auto">
+            <div class="text-xs text-muted-foreground/80">
+                <a href="#privacy-policy" class="hover:underline">Privacy Policy</a>
+                <span class="mx-2">&bull;</span>
+                <a href="#terms-of-service" class="hover:underline">Terms of Service</a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
